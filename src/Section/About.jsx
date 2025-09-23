@@ -2,23 +2,30 @@ export default function About() {
   return (
     <div className="bg-gray-800 text-gray-400 w-full">
       <div className="px-72 py-24 text-justify">
-        <h2 className="text-center text-3xl mb-5">About Me</h2>
+        <h2 className="text-center text-3xl mb-5">Tentang Saya</h2>
         <p className="mb-4">
-          Hello! I'm a passionate Web Developer with over 2 years of experience
-          specializing in Laravel and ReactJS. I love creating dynamic and
-          interactive web applications that provide a seamless user experience.
+          Saya adalah seorang <b>Web Developer</b> dengan pengalaman lebih dari{" "}
+          <b>3 tahun</b>. Saya memiliki passion dalam membangun aplikasi web
+          yang{" "}
+          <b>
+            dinamis, interaktif, dan memberikan pengalaman pengguna yang optimal
+          </b>
+          .
         </p>
         <p className="mb-4">
-          With a solid understanding of the full web development life cycle, I
-          have successfully developed numerous web applications from concept to
-          deployment. My technical skills include but are not limited to PHP,
-          Laravel, JavaScript, ReactJS, HTML, CSS, and SQL.
+          Dengan pemahaman yang kuat terhadap{" "}
+          <b>siklus pengembangan software end-to-end</b>, saya telah berhasil
+          mengembangkan berbagai aplikasi web mulai dari{" "}
+          <b>perancangan, pengembangan, hingga deployment</b>.
         </p>
         <p className="mb-4">
-          I'm always eager to learn more and improve my skills. I believe in the
-          power of programming to transform and improve the lives of people
-          around the world. I'm looking forward to bringing my unique blend of
-          technical skills and passion for web development to new opportunities.
+          Saya percaya bahwa <b>pemrograman memiliki kekuatan untuk membawa
+          perubahan positif</b> dan meningkatkan kualitas hidup banyak orang. Karena
+          itu, saya selalu bersemangat untuk <b>belajar hal baru</b>, meningkatkan
+          kemampuan, serta menghadirkan solusi digital yang bermanfaat.
+        </p>
+        <p className="mb-4">
+          Saya siap membawa kombinasi antara <b>keterampilan teknis</b> dan <b>semangat dalam web development</b> untuk mendukung berbagai peluang baru.
         </p>
       </div>
     </div>

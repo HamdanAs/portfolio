@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Skills() {
   return (
     <div className="w-full px-72 py-8">
-      <h3 className="text-center text-3xl">My Skills</h3>
+      <h3 className="text-center text-3xl">Skill</h3>
       <div className="flex justify-between gap-x-5 mt-6 text-gray-400">
         <div className="w-full h-24 bg-gray-800 p-3 flex flex-col">
           <h6 className="text-xl">Web Development</h6>

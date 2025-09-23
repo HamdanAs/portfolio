@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer() {
   return (
     <div className="w-full px-48 py-12 bg-gray-800 text-gray-400">
-      <h2 className="text-2xl">Get In Touch</h2>
+      <h2 className="text-2xl">Kontak Saya</h2>
       <p>
-        For business inquiry please send email to{" "}
+        Untuk pertanyaan bisnis, silakan hubungi saya melalui email di{" "}
         <a className="text-teal-600" href="mailto:21hamdanas@gmail.com">
           21hamdanas@gmail.com
         </a>
