@@ -28,7 +28,7 @@ export default function Projects() {
           <div className="mt-1">
             <h5 className="text-xl mb-2">Sippanah</h5>
             <p>
-              Sitarung adalah Sistem informasi penyelenggaraan pertanahan. Web ini bertujuan untuk memfasilitasi pengajuan pengadaan tanah, sertifikasi tanah, dan perpanjangan HGU.
+              Sippanah adalah Sistem informasi penyelenggaraan pertanahan. Web ini bertujuan untuk memfasilitasi pengajuan pengadaan tanah, sertifikasi tanah, dan perpanjangan HGU.
             </p>
           </div>
         </div>
