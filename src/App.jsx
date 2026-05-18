@@ -1,20 +1,15 @@
-import Hero from "./Section/Hero";
-import About from "./Section/About";
-import Skills from "./Section/Skills";
-import Tools from "./Section/Tools";
-import Projects from "./Section/Projects";
-import Footer from "./Section/Footer";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import ProjectDetail from "./pages/ProjectDetail";
 
 function App() {
   return (
-    <>
-      <Hero />
-      <About />
-      <Skills />
-      <Tools />
-      <Projects />
-      <Footer />
-    </>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:slug" element={<ProjectDetail />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
