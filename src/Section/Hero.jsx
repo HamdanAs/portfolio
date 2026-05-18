@@ -76,7 +76,7 @@ export default function Hero() {
               <span className="text-cyan-400 font-medium">dinamis</span> &{" "}
               <span className="text-violet-400 font-medium">interaktif</span> dengan
               pengalaman lebih dari{" "}
-              <span className="text-emerald-400 font-bold">3 tahun</span>.
+              <span className="text-emerald-400 font-bold">4 tahun</span>.
               Berfokus pada performa, estetika, dan pengalaman pengguna yang optimal.
             </p>
 
